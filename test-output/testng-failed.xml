@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [eCommerce]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.walmart.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="WalmartAppTest(failed)">
+    <classes>
+      <class name="com.walmart.testCases.TC_ShoppingCart_001">
+        <methods>
+          <include name="close"/>
+          <include name="differentItems"/>
+          <include name="setup"/>
+          <include name="checkCart"/>
+        </methods>
+      </class> <!-- com.walmart.testCases.TC_ShoppingCart_001 -->
+    </classes>
+  </test> <!-- WalmartAppTest(failed) -->
+</suite> <!-- Failed suite [eCommerce] -->

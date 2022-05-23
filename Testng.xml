@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="eCommerce">
+
+	<listeners>
+		<listener class-name="com.walmart.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="WalmartAppTest">
+		<!-- <parameter name="browser" value="chrome" /> -->
+		<classes>
+		
+			<class name="com.walmart.testCases.TC_ShoppingCart_001" /> 
+			<!-- <class name="com.walmart.testCases.TC_GuestUser_001" /> -->
+			<!--<class name="com.walmart.testCases.TC_Recommendations_001" />-->
+
+		</classes>
+
+	</test>
+
+</suite>
